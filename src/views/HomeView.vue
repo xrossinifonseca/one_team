@@ -7,10 +7,16 @@ import FindPartner from '../components/home/FindPartner.vue'
 </script>
 
 <template>
-  <main>
-    <Banner />
-    <FindProfessionals />
-    <About />
-    <FindPartner />
-  </main>
+  <div class="mb-20">
+    <div class="flex justify-center">
+      <Nav />
+    </div>
+
+    <main>
+      <Banner />
+      <FindProfessionals />
+      <About />
+      <FindPartner />
+    </main>
+  </div>
 </template>

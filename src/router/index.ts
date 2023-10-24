@@ -21,7 +21,10 @@ const router = createRouter({
       name: 'login',
       component: LoginViewVue
     }
-  ]
+  ],
+  scrollBehavior(to, from, savedPostion) {
+    return savedPostion || { top: 0 }
+  }
 })
 
 export default router
