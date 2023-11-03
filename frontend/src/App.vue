@@ -1,9 +1,4 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
-import FooterComponent from './components/FooterComponent.vue'
-import { storeToRefs } from 'pinia'
-// import Footer from './components/Footer.vue'
-import { useCounter } from './store/counter'
 import { ref } from 'vue'
 
 const click = ref(false)
